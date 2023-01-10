@@ -1,0 +1,427 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Gilroy;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+
+}
+#main {
+  width: 100%;
+  /* background-color: rgb(212, 81, 81); */
+  overflow: hidden;
+}
+#menu{
+  display: flex;
+  justify-content: space-between;
+ height: 6vh;
+  width: 100%;
+  align-items: center;
+  position: relative;
+  background-color: grey;
+  border-bottom: 2px solid rgb(15, 14, 14);
+}
+#navmenu {
+  left: 25%;
+  word-spacing: 80px;
+  position: absolute;
+}
+#navmenu a{
+  color: rgb(10, 10, 10);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+.ri-apple-fill{
+  color: rgb(224, 221, 221);
+  position: absolute;
+  left: -10%;
+  font-size: 20px;
+  font-weight: 800;
+}
+#buy{
+  word-spacing: 0;
+}
+.ri-search-line{
+  position: absolute;
+  color: rgb(210, 202, 202);
+  left: 105%;
+  font-size: 30px;
+  font-weight: 800;
+  top: 0%;
+}
+#uppernav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ height: 6vh;
+  width: 100%;
+  align-items: center;
+  position: relative;
+  /* background-color: rgba(237, 242, 242, 0.947); */
+  border-bottom: 2px solid black;
+}
+#uppernav h1{
+  font-family: "gilroy";
+ margin-left: 19%;
+ font-weight: 600;
+ /* co:linear-gradient(red,pink, yellow) ; */
+
+}
+#uppera {
+  position: absolute;
+  right: 20%;
+  font-size: 15px;
+  word-spacing: 20px;
+  color: rgba(57, 55, 55, 0.345);
+}
+#uppera a{
+  color: #252525;
+  font-weight: 600;
+  text-decoration: none;
+}
+#uppera button{
+  padding: 1px 14px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 20px;
+  border: none;
+}
+#switch{
+  word-spacing: 0;
+}
+#tech{
+  word-spacing: 0;
+}
+#ion{
+  height: 100vh;
+  /* position: relative; */
+}
+#ion h1{
+  position: absolute;
+  left: 30%;
+  top: 20%;
+  font-size: 82px;
+  background: -webkit-linear-gradient(rgb(227, 113, 113),rgb(186, 23, 94),royalblue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+#ion h2{
+  position: absolute;
+  left: 35%;
+  top: 30%;
+  font-size: 80px;
+  /* opacity: 0; */
+
+}
+#ion img{
+  position: absolute;
+  right: 0;
+  top: 40%;
+  width: 80%;
+}
+
+#second{
+  position: relative;
+  height: 105vh;
+  width: 100%;
+}
+#second #img1{
+  position: absolute;
+ margin-top: 3%;
+ margin-left: 20%;
+
+}
+#second #img2{
+  position: absolute;
+ margin-top: 5%;
+ margin-left: 60%;
+}
+#second #img3{
+    position: absolute;
+    margin-left: 46%;
+    margin-top: 24vh;
+    height: 45vh;
+    /* opacity: 0; */
+}
+#second h1{
+  position: absolute;
+  color: #fff;
+  margin-top: 42.5%;
+  margin-left: 42%;
+
+}
+#second h3{
+  position: absolute;
+  color: #fff;
+  margin-top: 41%;
+  margin-left: 45%;
+  font-weight: 400;
+  font-size: 15px;
+
+}
+#second h4{
+  position: absolute;
+  color: #fff;
+  margin-top: 46%;
+  margin-left: 48%;
+  font-weight: 400;
+  font-size: 15px;
+
+}
+#third{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+#upin{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+#upin1{
+  position: absolute;
+  top: 53%;
+  left: 58%;
+  transform: translate(-50%,-50%);
+  height: 75%;
+  bottom: 0%;
+}
+#third #upin3{
+  position: absolute;
+  top: 32%;
+  left: 33%;
+
+  
+}
+#third #upin2{
+  position: absolute;
+  font-size: 30px;
+  font-weight: 900;
+  top: 28%;
+  left: 20%;
+}
+#third #upin4{
+  position: absolute;
+  font-size: 30px;
+  font-weight: 900;
+  top: 48%;
+  left: 70%;
+}
+#third #upin5{
+  position: absolute;
+  font-size: 30px;
+  font-weight: 700;
+  top: 53%;
+  left: 70%;
+}
+#third h4{
+  position: absolute;
+  top: 94%;
+  left: 42%;
+  font-size: 20px;
+  font-weight: 600;
+}
+#fourth{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+#fourth img{
+  position: absolute;
+  height: 90%;
+  top: 54.5%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+#fourth h2{
+margin-left: 43%;
+}
+#fourth h4{
+  margin-left: 47%;
+  font-weight: 500;
+  }
+  #fivth{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+  }
+  #fivth h1{
+    position: absolute;
+    left: 15%;
+    top: 2%;
+    font-size:660px;
+  }
+  #fivth h2{
+    position: absolute;
+    left: 18%;
+    top: 4%;
+    font-size:80px;
+  }
+  #fivth h3{
+    position: absolute;
+    left: 52%;
+    top: 85%;
+    font-size:50px;
+  }
+  #sixth{
+    position: relative;
+    height: 170vh;
+    width: 100%;
+  }
+  #sixth img{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    right: -20%;
+  }
+  #sixth h1{
+    margin-top: 2%;
+    margin-left: 10%;
+    font-size: 70px;
+  }
+  #sixth h2{
+    margin-top: 2%;
+    margin-left: 10%;
+    font-size: 30px;
+  }
+  #sixth h3{
+    margin-top: 55%;
+    margin-left: 20%;
+    font-weight: 500;
+    color: rgba(128, 128, 128, 0.935);
+  }
+  
+  #eight{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    /* background-color: rgb(91, 97, 61); */
+  }
+  #eight img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+  }
+  #nine{
+    position: relative;
+    height: 80vh;
+    width: 100%;
+  }
+  #nine img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+  #ten{
+    position: relative;
+    height: 80vh;
+    width: 100%;
+  }
+  #ten img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+  #eleven{
+    position: relative;
+    height: 80vh;
+    width: 100%;
+  }
+  #eleven img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+  #twelve{
+    position: relative;
+    height: 80vh;
+    width: 100%;
+  }
+  #twelve img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+  #thirty{
+    position: relative;
+    height: 80vh;
+    width: 100%;
+  }
+  #thirty img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+  #fourty{
+    position: relative;
+    height: 80vh;
+    width: 100%;
+  }
+  #fourty img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+  #fifty{
+    position: relative;
+    height: 80vh;
+    width: 100%;
+  }
+  #fifty img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+  #seven{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+  }
+  #seven img{
+    position: absolute;
+    height: 100%;
+    width: 90%;
+
+  }
+  #sixty{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+  }
+  #sixty img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+  }
+  #seventy{
+    position: relative;
+    height: 80vh;
+    width: 100%;
+  }
+  #seventy img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+  
+  #eighty{
+    position: relative;
+    height: 80vh;
+    width: 100%;
+  }
+  #eighty img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+  
